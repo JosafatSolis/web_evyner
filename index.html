@@ -27,7 +27,11 @@
     <link rel="preconnect" href="https://fonts.googleaplis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleaplis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- page -->
     <title>Evyner</title>
 </head>
@@ -60,7 +64,8 @@
             <h1 class="mainTitle">
                 Collect numeric data from your filed operations, quick and easy.
             </h1>
-            <a class="tryForFreeButton" href="/satellites/try-register.html">Try for Free</a>
+            <a class="tryForFreeButton animate__animated animate__bounce" href="/satellites/try-register.html">Try for
+                Free</a>
         </div>
     </header>
     <main class="indexMainTable">
@@ -72,7 +77,7 @@
         </div>
         <img class="halfTextHalfImage__image" src="/assets/images/solution-description.webp"
             alt="Solution Description Image" />
-        <img class="screenWideFigure__img" src="/assets/images/infographic.webp" alt="infographic" />
+        <img class="screenWideFigure__img" src="/assets/images/infographic.webp" alt="infographic" data-aos="flip-right" />
         <h2 class="centeredTitle gridHowToTry">How to try it</h2>
         <p class="screenWideText">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -81,19 +86,20 @@
             provident. In nostrum distinctio reiciendis?
         </p>
         <div class="centerInlineItem">
-            <a class="tryForFreeButton" href="/satellites/try-register.html">Try for Free</a>
+            <a class="tryForFreeButton animate__animated animate__bounce" href="/satellites/try-register.html">Try for
+                Free</a>
         </div>
         <h2 class="centeredTitle useCasesTitle">Use cases examples</h2>
         <div class="columnFigures useCasesColumnFigures">
-            <div class="columnFigures__oneThirdFigure">
+            <div class="columnFigures__oneThirdFigure" data-aos="fade-up">
                 <img class="columnFigures__img" src="/assets/images/manufacturing.webp" alt="manufacturing image" />
                 <strong class="columnFigures__oneThirdcaption">Manufacturing</strong>
             </div>
-            <div class="columnFigures__oneThirdFigure">
+            <div class="columnFigures__oneThirdFigure" data-aos="fade-up">
                 <img class="columnFigures__img" src="/assets/images/transportation.webp" alt="transportation image" />
                 <strong class="columnFigures__oneThirdcaption">Transportation</strong>
             </div>
-            <div class="columnFigures__oneThirdFigure">
+            <div class="columnFigures__oneThirdFigure" data-aos="fade-up">
                 <img class="columnFigures__img" src="/assets/images/logistics.webp" alt="logistics image" />
                 <strong class="columnFigures__oneThirdcaption">Logistics</strong>
             </div>
@@ -132,6 +138,10 @@
             <div class="footer__copyright">(c) 2022 Evyner - All rights reserved</div>
         </footer>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
