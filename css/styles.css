@@ -18,7 +18,7 @@ p, h2 {
 }
 
 .heroHeader {
-    background-image: url(/assets/images/start-background.jpeg);
+    background-image: url(../assets/images/start-background.jpeg);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
