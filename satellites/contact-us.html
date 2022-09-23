@@ -23,6 +23,10 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="../ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="preconnect" href="https://fonts.googleaplis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,28 +41,52 @@
         <a href="../index.html#top">
             <img class="mainLogo mainLogo--small" src="../assets/images/Logo color 225x90.png" alt="Logo Evyner">
         </a>
-        <nav class="mainNav mainNav--black">
-            <ul class="mainNav__navUL">
-                <li class="mainNav__navLI"><a class="mainNav__link" href="../index.html#top">Home</a></li>
-                <li class="mainNav__navLI"><a class="mainNav__link"
-                        href="../satellites/plans-and-pricing.html">Plans & Pricing</a></li>
-                <li class="mainNav__navLI"><a class="mainNav__link"
-                        href="../satellites/faq.html">Faq</a></li>
-                <li class="mainNav__navLI"><a class="mainNav__link"
-                        href="../satellites/try-register.html">Free try</a></li>
-                <li class="mainNav__navLI"><a class="mainNav__link"
-                        href="../satellites/login.html">Login</a></li>
-            </ul>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md bg-transparent">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item mainNav__navLI">
+                            <a class="nav-link mainNav__link mainNav__link--black" aria-current="page"
+                                href="../index.html#top">Home</a>
+                        </li>
+                        <li class="nav-item mainNav__navLI">
+                            <a class="nav-link mainNav__link mainNav__link--black"
+                                href="../satellites/plans-and-pricing.html">Plans & Pricing</a>
+                        </li>
+                        <li class="nav-item mainNav__navLI">
+                            <a class="nav-link mainNav__link mainNav__link--black" href="../satellites/faq.html">Faq</a>
+                        </li>
+                        <li class="nav-item mainNav__navLI">
+                            <a class="nav-link mainNav__link mainNav__link--black"
+                                href="../satellites/try-register.html">Free Try</a>
+                        </li>
+                        <li class="nav-item mainNav__navLI">
+                            <a class="nav-link mainNav__link mainNav__link--black"
+                                href="../satellites/login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <!-- /NavBar -->
     </header>
     <main class="contact">
         <section class="contact__leftSection">
             <h2 class="contact__leftTitle">lorem ipsum dolor sit amet</h2>
             <form action="">
-                <div><label class="registerForm__label" for="one">Lorem ipsum</label><input class="registerForm__input" type="text" name="one" id="one"></div>
-                <div><label class="registerForm__label" for="two">Lorem ipsum</label><input class="registerForm__input" type="text" name="two" id="two"></div>
-                <div><label class="registerForm__label" for="three">Lorem ipsum</label><textarea name="three" id="three" cols="30"
-                        rows="10"></textarea></div>
+                <div><label class="registerForm__label" for="one">Lorem ipsum</label><input class="registerForm__input"
+                        type="text" name="one" id="one"></div>
+                <div><label class="registerForm__label" for="two">Lorem ipsum</label><input class="registerForm__input"
+                        type="text" name="two" id="two"></div>
+                <div><label class="registerForm__label" for="three">Lorem ipsum</label><textarea name="three" id="three"
+                        cols="30" rows="10"></textarea></div>
                 <div><input type="checkbox" name="four" id="four">Four</div>
                 <input class="registerForm_actionButton" type="submit" value="Lorem">
             </form>
@@ -103,6 +131,10 @@
         </section>
 
     </main>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

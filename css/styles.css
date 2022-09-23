@@ -1,3 +1,8 @@
+:root {
+    --white-color: whitesmoke;
+    --black-color: #222;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
@@ -79,15 +84,19 @@ p, h2 {
 }
 
 .mainNav__link {
-    color: inherit;
+    color: var(--white-color);
     font-weight: 500;
     font-size: 1.2rem;
     text-decoration: none;
 }
 
-.mainNav__link:hover {
-    font-weight: 700;
+.mainNav__link--black {
+    color: var(--black-color);
 }
+
+/* .mainNav__link:hover {
+    font-weight: 700;
+} */
 
 .hamburgerIcon {
     width: 50px;
