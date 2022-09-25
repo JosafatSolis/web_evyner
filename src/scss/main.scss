@@ -1,0 +1,129 @@
+@import "_commons";
+@import "_index";
+@import "_plans-and-pricing";
+@import "_contact-us";
+@import "_faq";
+@import "_try-register";
+@import "_login";
+
+/* Index Media Queries */
+@media screen and (min-width: 720px) {
+    .mainLogo {
+        width: 30vmin;
+    }
+    .mainTitle {
+        font-size: $extraBigFont;
+    }
+    .mainNav {
+        display: block;
+    }
+    .hamburgerIcon {
+        display: none;
+    }
+    .indexMainTable {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        'a b'
+        'c c'
+        'd d'
+        'e e'
+        'f f'
+        'g g'
+        'h h'
+        'i i';
+        width: 100vw;
+    }
+    .halfTextHalfImage__text {
+        width: 100%;
+        grid-area: a;
+    }
+    .halfTextHalfImage__image {
+        width: 100%;
+        grid-area: b;
+    }
+    .screenWideFigure__img {
+        width: 100%;
+        grid-area: c;
+    }
+    .gridHowToTry {
+        grid-area: d;
+    }
+    .screenWideText {
+        grid-area: e;
+        width: 100%;
+    }
+    .centerInlineItem {
+        grid-area: f;
+    }
+    .useCasesTitle {
+        grid-area: g;
+    }
+    .useCasesColumnFigures {
+        grid-area: h;
+        width: 100%;
+    }
+    .footer {
+        grid-area: i;
+    }
+    .centerInlineItem {
+        padding: 3rem;
+    }
+    .columnFigures__oneThirdFigure {
+        width: 25vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .halfTextHalfImage__text {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: $biggerFont;
+    }
+    .screenWideText {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: $biggerFont;
+    }
+}
+
+
+
+
+/* Plans & Pricing Media Queries */
+@media screen and (min-width: 720px){
+    .mainLogo--small {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .hideOnBig {
+        display: none;
+    }
+    .ppMainTable {
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+        grid-template-areas:
+        '. pp_free_label pp_premium_label pp_corporate_label'
+        'pp_free_feature_1 pp_free_icon_1 pp_premium_icon_1 pp_corporate_icon_1'
+        'pp_free_feature_2 pp_free_icon_2 pp_premium_icon_2 pp_corporate_icon_2'
+        'pp_free_feature_3 pp_free_icon_3 pp_premium_icon_3 pp_corporate_icon_3'
+        'pp_free_price_row_header pp_free_price_label pp_premium_price_label pp_corporate_price_label'
+        '. pp_free_button pp_premium_button pp_corporate_button'
+        ;
+        column-gap: 5px;
+        max-width: 1300px;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .tableOptionBundle__header {
+        font-size: $bigFont;
+    }
+    .tableOptionBundle_actionButton {
+        margin: 15px 0;
+        width: 170px;
+        padding: 15px 20px;
+        font-size: $regularFont;
+    }
+}
+

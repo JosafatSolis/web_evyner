@@ -1,0 +1,28 @@
+.mainFAQ {
+    flex-wrap: nowrap;
+    justify-content: end;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.questionsSection {
+    width: 50vw;
+    max-width: 600px;
+    padding-left: 50px;
+    align-self: center;
+}
+
+.rightSection {
+    width: 50vw;
+    max-width: 600px;
+    align-self: flex-end;
+    margin-right: 60px;
+}
+
+.questionArticle {
+    padding-bottom: 1rem;
+}
+
+.faqImg {
+    width: 100%;
+}

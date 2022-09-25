@@ -1,0 +1,57 @@
+.mainTryRegister {
+    padding-bottom: 6rem;
+}
+
+.registerForm {
+    margin-top: 4rem;
+    border: $blackColor 2px solid;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    max-width: 700px;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.registerForm__title {
+    color: $blackColor;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: $biggerFont;
+    display: block;
+}
+
+.registerForm__form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registerForm__label {
+    display: block;
+    font-size: $regularFont;
+    margin-bottom: 5px;
+}
+
+.registerForm__input {
+    width: 100%;
+    font-size: $smallFont;
+    margin-bottom: 1rem;
+}
+
+.registerForm_actionButton {
+    display: block;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    width: 170px;
+    background-color: $primaryColor;
+    padding: 15px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: $regularFont;
+    box-shadow: 2px 2px 10px -2px $semiTransparentBlack;
+}
+

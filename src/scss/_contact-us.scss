@@ -1,0 +1,40 @@
+
+.contact {
+    display: flex;
+    height: 100vh;
+}
+
+.contact__header {
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+    padding-right: 10px;
+}
+
+.contact__leftSection {
+    margin: 5rem;
+}
+
+.contact__leftTitle {
+    padding-top: 5rem;
+}
+
+.contact__rightSection {
+    padding: 10rem 3rem 2rem 2rem;
+    position: relative;
+}
+
+.contact__mainTitle {
+    font-size: $extraBigFont;
+}
+
+.contact__footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-right: 15px;
+}

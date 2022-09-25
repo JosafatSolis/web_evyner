@@ -1,0 +1,94 @@
+// Variables
+$background-image: '../assets/images/start-background.jpeg';
+
+.heroHeader {
+    background-image: url($background-image);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex: wrap;
+    align-items: start;
+    align-content: start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.heroImage {
+    height: 100vh;
+    border: 1px solid;
+    border-color: $transparentBlack;
+}
+
+.mainTitleBundle {
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+}
+
+.mainTitle {
+    background-color: $semiTransparentBlack;
+    color: $whiteColor;
+    font-size: $biggerFont;
+    padding: 0.5rem 1rem;
+}
+
+.indexMainTable {
+    display: grid;
+    width: 100vw;
+    row-gap: 1rem;
+    justify-items: center;
+}
+
+.halfTextHalfImage {
+
+    &__text {
+        padding: 1rem 1rem;
+        width: 100vw;
+        font-size: $bigFont;
+    }
+
+    &__image {
+        border-radius: 10px 0 0 0;
+        box-shadow: 5px 5px 10px 0px $semiTransparentBlack;
+        width: 90vw;
+    }
+}
+
+.screenWideFigure {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    &__img {
+        width: 90vw;
+    }
+
+    &__caption {
+        text-align: center;
+    }
+}
+
+.centeredTitle {
+    text-align: center;
+    font-size: $biggerFont;
+    font-weight: 700;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    width: 100vw;
+}
+
+.screenWideText {
+    padding: 1rem 1rem;
+    font-size: $bigFont;
+    width: 100vw;
+}
+
+.centerInlineItem {
+    text-align: center;
+    padding: 2rem 0;
+    width: 100vw;
+}
+

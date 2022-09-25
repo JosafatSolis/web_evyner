@@ -1,25 +1,25 @@
 # Roadmap
 
+## Generales
+- Meter media queries en bloques de SASS
+
 ## Home
-- ...
+- Quitar marcas de agua a las imagenes
 
 ## Plans & Pricing
-- Link en logo
-- Favicon
+- ...
 
 ## FAQ
-- Link en logo
-- Favicon
+- Recortar imagen y quitar marca de agua
+- Hacer responsive*
 
 ## Try Register
-- Link en logo
-- Favicon
+- Hacer responsive
 
 ## Contact Us
-- Link en logo
-- Favicon
+- Corregir layout
+- Hacer responsive
 
 ## Login
-- Link en logo
-- Favicon
+- Hacer responsive
 
